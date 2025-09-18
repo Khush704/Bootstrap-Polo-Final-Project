@@ -1,0 +1,138 @@
+.team .team-icon  li{
+    width: 30px; 
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.team .team-icon  li:hover a i{
+    animation: icon 0.3s linear;
+}
+
+@keyframes icon{
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
+
+.team .team-icon  li:hover{
+    width: 120px;
+}
+
+
+.lists ul li .icon-box:hover {
+    background-color: #fd7e14;
+
+}
+
+.lists ul li .icon-box-1:hover {
+    background-color: #007bff;
+
+}
+
+.lists ul li .icon-box-2:hover {
+    background-color: #00d0ff;
+
+}
+
+.lists ul li .icon-box-3:hover {
+    background-color: #00d0ff;
+
+}
+
+.lists ul li .icon-box-4:hover {
+    background-color: #ff1212;
+
+}
+
+.lists ul li .icon-box-5:hover {
+    background-color: #dc3545;
+
+}
+
+.lists ul li .icon-box-6:hover {
+    background-color: #dc3545;
+
+}
+
+.lists ul li .icon-box-7:hover {
+    background-color: #dba905;
+
+}
+
+.lists ul li .icon-box-8:hover {
+    background-color: #ee05ac;
+
+}
+
+.lists ul li .icon-box-9:hover {
+    background-color: #00d0ff;
+
+}
+
+.lists ul li .icon-box-10:hover {
+    background-color: #007bff;
+
+}
+
+.lists ul li .icon-box-11:hover {
+    background-color: #007bff;
+
+}
+
+.lists ul li .icon-box-12:hover {
+    background-color: #ee05ac;
+
+}
+
+.lists ul li a:hover .fa-rss,
+a:hover .fa-faceb,
+a:hover .fa-twitter-1,
+a:hover .fa-vimeo-v,
+a:hover .fa-youtube,
+a:hover .fa-instagram-1,
+a:hover .fa-pinterest-p,
+a:hover .fa-google-plus-g,
+a:hover .fa-dribbble,
+a:hover .fa-skype,
+a:hover .fa-linkedin,
+a:hover .fa-behance,
+a:hover .fa-flickr {
+    color: #fff;
+    animation: socialicon 0.08s linear;
+}
+
+
+@keyframes socialicon {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+
+
+.work-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto auto auto;
+}
+
+.work-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.work-item.item3 {
+    grid-area: 1 / 3 / 3 / 4;
+}
+
+.item4 {
+    grid-area: 2 / 1 / 4 / 3;
+}
