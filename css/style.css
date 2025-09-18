@@ -136,3 +136,38 @@ a:hover .fa-flickr {
 .item4 {
     grid-area: 2 / 1 / 4 / 3;
 }
+
+
+.team .btn{
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(212, 212, 212);
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+
+}
+
+.team .btn i{
+    margin-right: 10px;
+}
+
+.team .btn:hover i{
+    animation: icon 0.5s ease-in-out;
+}
+
+@keyframes icon{
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
+
+
+.team .btn:hover{
+    width: 120px;
+}
